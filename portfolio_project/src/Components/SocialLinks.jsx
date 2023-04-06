@@ -1,11 +1,15 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { AiFillTwitterCircle } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
+import { AiOutlineMail } from "react-icons/ai";
+import { RiArticleLine } from "react-icons/ri";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
       const links = [
-            {
+            /*{
                   id: 1,
                   child: (
                         <>
@@ -19,25 +23,35 @@ const SocialLinks = () => {
                   id: 2,
                   child: (
                         <>
-                              GitHub <FaGithub size={30} />
+                              Twitter < AiFillTwitterCircle size={30} />
+                        </>
+                  ),
+                  href: "https://twitter.com",
+                  style: "rounded-tr-md",
+            },*/
+            {
+                  id: 1,
+                  child: (
+                        <>
+                              GitHub <FiGithub size={30} />
                         </>
                   ),
                   href: "https://github.com/annap98",
             },
             {
-                  id: 3,
+                  id: 2,
                   child: (
                         <>
-                              Mail <HiOutlineMail size={30} />
+                              Mail <AiOutlineMail size={30} />
                         </>
                   ),
                   href: "mailto:pittann11@gmail.com",
             },
             {
-                  id: 4,
+                  id: 3,
                   child: (
                         <>
-                              Resume <BsFillPersonLinesFill size={30} />
+                              Resume <RiArticleLine size={30} />
                         </>
                   ),
                   href: "/resume.pdf",
@@ -60,7 +74,7 @@ const SocialLinks = () => {
                               >
                                     <a
                                           href={href}
-                                          className="flex justify-between items-center w-full text-white"
+                                          className="flex justify-between items-center w-full text-yellow font-signature"
                                           download={download}
                                           target="_blank"
                                           rel="noreferrer"

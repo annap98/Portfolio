@@ -1,22 +1,21 @@
 import React from "react";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { BsArrowRightShort, BsArrowRightCircle } from "react-icons/bs";
 import { Link } from "react-scroll";
+import profilepictwo from "../Assets/profilepictwo.png"
 
 const Home = () => {
       return (
             <div
                   name="home"
-                  className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+                  className="h-screen w-full bg-gradient-to-b from-black via-black to-pink font-signature"
             >
                   <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                         <div className="flex flex-col justify-center h-full">
                               <h2 className="text-4xl sm:text-7xl font-bold text-white">
-                                    I'm a Full Stack Developer
+                                    I'm a Web Developer and Writer
                               </h2>
-                              <p className="text-gray-500 py-4 max-w-md">
-                                    I have 8 years of experience building and desgining software.
-                                    Currently, I love to work on web application using technologies like
-                                    React, Tailwind, Next JS and GraphQL.
+                              <p className="text-white py-4 max-w-md">
+                                    I have experience with a variety of different technologies and I am passionate about front-end and UX design.
                               </p>
     
                               <div>
@@ -24,11 +23,11 @@ const Home = () => {
                                           to="portfolio"
                                           smooth
                                           duration={500}
-                                          className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+                                          className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-darkGrey cursor-pointer"
                                     >
                                           Portfolio
                                           <span className="group-hover:rotate-90 duration-300">
-                                                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                                                <BsArrowRightCircle size={20} className="ml-1" />
                                           </span>
                                     </Link>
                               </div>
@@ -36,9 +35,9 @@ const Home = () => {
     
                         <div>
                               <img
-                                    /*src={HeroImage}
+                                    src={profilepictwo}
                                     alt="my profile"
-                                    className="rounded-2xl mx-auto w-2/3 md:w-full"*/
+                                    className="rounded-1xl mx-7 md:w-full object-cover h-200 w-200 rounded-lg"
                               />
                         </div>
                   </div>
