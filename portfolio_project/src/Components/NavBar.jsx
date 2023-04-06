@@ -66,7 +66,7 @@ const NavBar = () => {
                                           key={id}
                                           className="px-4 cursor-pointer capitalize py-6 text-4xl"
                                     >
-                                    <li>
+                              
                                           <Link
                                                 onClick={() => setNav(!nav)}
                                                 to={link}
@@ -76,7 +76,7 @@ const NavBar = () => {
                                                 {link}
                                           </Link>
                                     </li>
-                              ))}
+                              ))};
                         </ul>
                   )}
             </div>
