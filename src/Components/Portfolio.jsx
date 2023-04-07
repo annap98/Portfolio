@@ -2,24 +2,16 @@ import React from "react";
 import installNode from "../Assets/Portfolio/installNode.jpg";
 import navbar from "../Assets/Portfolio/navbar.jpg";
 import pressReleaseEx from "../Assets/Portfolio/pressReleaseEx.jpg";
+import Ecom from "../Assets/Portfolio/Ecom.png";
 
 
 const Portfolio = () => {                             //** This is the portfolio section on the page, showing both web dev and writing examples*/
       const webDevPortfolios = [
             {
                   id: 1,
-                  src: navbar, 
-                  href: "/pressRelease.pdf"
-            },
-            {
-                  id: 2,
-                  src: installNode,
-                  href: "/pressRelease.pdf"
-            },
-            {
-                  id: 3,
-                  src: navbar,
-                  href: "/pressRelease.pdf"
+                  src: Ecom, 
+                  href: "https://github.com/annap98/EcomStore",
+                  href2: "https://github.com/"
             },
       ];
 
@@ -29,16 +21,6 @@ const Portfolio = () => {                             //** This is the portfolio
                   src: pressReleaseEx,
                   href: "/pressRelease.pdf"
             },
-            {
-                  id: 2,
-                  src: installNode,
-                  href: "/pressRelease.pdf"
-            },
-            {
-                  id: 3,
-                  src: navbar,
-                  href: "/pressRelease.pdf"
-            }
       ];
 
 
@@ -56,7 +38,7 @@ const Portfolio = () => {                             //** This is the portfolio
                         </div>
 
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-                              {webDevPortfolios.map(({ id, src, href }) => (
+                              {webDevPortfolios.map(({ id, src, href, href2 }) => (
                                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                                           <img
                                                 src={src}
@@ -64,12 +46,16 @@ const Portfolio = () => {                             //** This is the portfolio
                                                 className="rounded-md duration-200 hover:scale-105"
                                           />
                                           <div className="flex items-center justify-center">
+                                          <a href={href2} target="_blank" rel="noreferrer">
                                                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                                       Demo
                                                 </button>
+                                          </a>
+                                          <a href={href} target="_blank" rel="noreferrer">
                                                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
                                                       Code
                                                 </button>
+                                          </a>
                                           </div>
                                     </div>
                               ))}
