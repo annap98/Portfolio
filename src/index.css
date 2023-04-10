@@ -9,8 +9,11 @@
   html {
     font-family: 'Space Mono', monospace;
     font-family: 'Sacramento', groteskspace;
+    overflow-x: hidden;
   }
 }
+
+
 
 
 

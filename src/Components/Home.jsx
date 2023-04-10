@@ -11,7 +11,7 @@ const Home = () => {
             >
                   <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                         <div className="flex flex-col justify-center h-full">
-                              <h2 className="text-4xl sm:text-7xl font-bold text-white">
+                              <h2 className="text-4xl sm:text-7xl font-bold text-white mt-4">
                                     I'm a Web Developer and Writer
                               </h2>
                               <p className="text-white py-4 max-w-md">
@@ -37,7 +37,7 @@ const Home = () => {
                               <img
                                     src={profilepictwo}
                                     alt="my profile"
-                                    className="rounded-1xl mx-7 md:w-full object-cover h-200 w-200 rounded-lg"
+                                    className="rounded-1xl md:w-full object-cover translate-y-[-42px] h-200 w-200 rounded-lg z-0"
                               />
                         </div>
                   </div>

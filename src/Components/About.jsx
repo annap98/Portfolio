@@ -13,7 +13,7 @@ const About = () => {
 					</p>
 				</div>
 
-				<p className="text-xl mt-20">
+				<p className="text-xl mt-4">
 				Hi, I’m Anna!
 
 				I am passionate about all things psychology, health, and lifestyle. My curiosity about the inner workings of the mind led me to getting my Bachelors in psychology. 
