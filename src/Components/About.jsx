@@ -16,14 +16,17 @@ const About = () => {
 				<p className="text-xl mt-4">
 				Hi, I’m Anna!
 
-				I am passionate about all things psychology, health, and lifestyle. My curiosity about the inner workings of the mind led me to getting my Bachelors in psychology. 
+				As a freelance web developer and writer, I bring a unique blend of skills to every project I work on. With a degree in psychology, I have an understanding of human behavior and how people interact with technology. This knowledge has helped me create websites that are not only visually appealing, but also intuitive and user-friendly.
+
 
 				</p>
 
 				<br />
 
 				<p className="text-xl">
-				Shortly after graduating from college, I developed an interest in web development so I decided to attend a coding bootcamp, where I gained the skills that would allow me to break into the tech field. I have professional experience in full stack development and I specialize in React and NodeJS.
+				In addition to my psychology background, I have also completed a full stack web development bootcamp, where I gained expertise in programming languages such as HTML, CSS, JavaScript, and Node.js. This has enabled me to develop dynamic and responsive websites that engage users and drive business results.
+
+				Whether you're looking for a new website, need help with a complex coding project, or require high-quality content that engages and informs your audience, I have the skills and experience to deliver exceptional results.
 				</p>
 			</div>
 		</div>
