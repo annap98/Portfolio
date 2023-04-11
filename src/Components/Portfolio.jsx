@@ -4,6 +4,8 @@ import Ecom from "../Assets/Portfolio/Ecom.png";
 
 // This is the section of the portfolio that displays the writing and web development samples 
 const Portfolio = () => {                             
+      
+      // Create an array that holds objects that contain web devlopment portfolio examples
       const webDevPortfolios = [
             {
                   id: 1,
@@ -13,6 +15,7 @@ const Portfolio = () => {
             },
       ];
 
+      // Create an array that holds objects that contain writing portfolio examples
       const writingPortfolios = [
             {
                   id: 1,
@@ -35,6 +38,7 @@ const Portfolio = () => {
                               <p className="py-6">Check out some of my work here</p>
                         </div>
 
+                        {/* Map through the web development examples object */}
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 -mt-4 mb-4">
                               {webDevPortfolios.map(({ id, src, href, href2 }) => (
                                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
@@ -57,6 +61,8 @@ const Portfolio = () => {
                                           </div>
                                     </div>
                               ))}
+                              
+                              {/* Map through the writing examples object */}
                               {writingPortfolios.map(({ id, src, href }) => (
                                     <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
                                           <img

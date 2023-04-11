@@ -3,7 +3,10 @@ import { FiGithub } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
 import { RiArticleLine } from "react-icons/ri";
 
+// Side bar containing social links and resume
 const SocialLinks = () => {
+      
+      // Create an array holding objects that contain the social media links
       const links = [
             /*{
                   id: 1,
@@ -59,6 +62,8 @@ const SocialLinks = () => {
       return (
             <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
                   <ul>
+                        
+                        {/* Map through the social links objects */}
                         {links.map(({ id, child, href, style, download }) => (
                               <li
                                     key={id}
