@@ -1,11 +1,7 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { HiOutlineMail } from "react-icons/hi";
 import { AiOutlineMail } from "react-icons/ai";
 import { RiArticleLine } from "react-icons/ri";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
       const links = [

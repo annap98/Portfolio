@@ -1,5 +1,6 @@
 import React from "react";
 
+// About section component
 const About = () => {
 	return (
 		<div

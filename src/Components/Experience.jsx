@@ -1,5 +1,4 @@
 import React from "react";
-
 import html from "../Assets/html.png";
 import css from "../Assets/css.png";
 import javascript from "../Assets/javascript.png";
@@ -7,7 +6,10 @@ import reactImage from "../Assets/react.png";
 import github from "../Assets/github.png";
 import tailwind from "../Assets/tailwind.png";
 
+// Experience section component
 const Experience = () => {
+      
+      // Creating an array of objects containing technology data
       const techs = [
             {
                   id: 1,
@@ -59,7 +61,8 @@ const Experience = () => {
                               </p>
                               <p className="py-6">These are the technologies I've worked with</p>
                         </div>
-      
+
+                        {/* Mapping through the array of technology objects to create a grid of technology logos */}
                         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
                               {techs.map(({ id, src, title, style }) => (
                               <div

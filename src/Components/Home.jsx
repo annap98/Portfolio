@@ -1,8 +1,9 @@
 import React from "react";
-import { BsArrowRightShort, BsArrowRightCircle } from "react-icons/bs";
+import { BsArrowRightCircle } from "react-icons/bs";
 import { Link } from "react-scroll";
 import profilepictwo from "../Assets/profilepictwo.png"
 
+// Home section component
 const Home = () => {
       return (
             <div

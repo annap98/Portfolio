@@ -1,6 +1,6 @@
 import React from "react";
 
-
+// Contact section component
 const Contact = () => {
       return (
             <div 
@@ -17,7 +17,9 @@ const Contact = () => {
                   </div>
 
                   <div className=" flex justify-center items-center">
+                        {/* Form with inputs and button */}
                         <form
+                              // Form endpoint for data submission
                               action="https://getform.io/f/2450d06c-5bc9-4ed4-9bff-718bc11724c8"
                               method="POST"
                               className=" flex flex-col w-full md:w-1/2"

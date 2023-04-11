@@ -1,11 +1,9 @@
 import React from "react";
-import installNode from "../Assets/Portfolio/installNode.jpg";
-import navbar from "../Assets/Portfolio/navbar.jpg";
 import pressReleaseEx from "../Assets/Portfolio/pressReleaseEx.jpg";
 import Ecom from "../Assets/Portfolio/Ecom.png";
 
-
-const Portfolio = () => {                             //** This is the portfolio section on the page, showing both web dev and writing examples*/
+// This is the section of the portfolio that displays the writing and web development samples 
+const Portfolio = () => {                             
       const webDevPortfolios = [
             {
                   id: 1,
