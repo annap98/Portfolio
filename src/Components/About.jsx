@@ -14,7 +14,6 @@ const About = () => {
 				</div>
 
 				<p className="text-xl mt-4">
-				Hi, I’m Anna!
 
 				As a freelance web developer and writer, I bring a unique blend of skills to every project I work on. With a degree in psychology, I have an understanding of human behavior and how people interact with technology. This knowledge has helped me create websites that are not only visually appealing, but also intuitive and user-friendly.
 
