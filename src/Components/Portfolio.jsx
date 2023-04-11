@@ -1,6 +1,6 @@
 import React from "react";
-import pressReleaseEx from "../Assets/Portfolio/pressReleaseEx.jpg";
 import Ecom from "../Assets/Portfolio/Ecom.png";
+import pressPic from "../Assets/Portfolio/pressPic.png";
 
 // This is the section of the portfolio that displays the writing and web development samples 
 const Portfolio = () => {                             
@@ -19,7 +19,7 @@ const Portfolio = () => {
       const writingPortfolios = [
             {
                   id: 1,
-                  src: pressReleaseEx,
+                  src: pressPic,
                   href: "/pressRelease.pdf"
             },
       ];
