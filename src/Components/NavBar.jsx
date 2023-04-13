@@ -80,7 +80,7 @@ const NavBar = () => {
                                                 {link}
                                           </Link>
                                     </li>
-                              ))};
+                              ))}
                         </ul>
                   )}
             </div>
