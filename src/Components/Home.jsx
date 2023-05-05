@@ -12,7 +12,7 @@ const Home = () => {
             >
                   <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                         <div className="flex flex-col justify-center h-full">
-                              <h2 className="text-6xl sm:text-7xl font-nav_bar text-black mt-28 tracking-widest content-center text-center">
+                              <h2 className="text-6xl sm:text-7xl font-nav_bar text-main mt-28 tracking-widest content-center text-center">
                                     I'm a Web Designer and UGC Creator
                               </h2>
                               <p className="text-black py-4 max-w-md font-sig_three text-center tracking-widest text-xl">
