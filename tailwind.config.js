@@ -12,12 +12,16 @@ module.exports = {
       'black': "#000000",
       'white': "#ffffff",
       'grey': "#d3d3d3",
-      'darkGrey': "#5a5a5a"
+      'darkGrey': "#5a5a5a",
+      'background': "#FFECE2",
+      'sig_color': "#FC9E1C"
     },
     extend: {},
     fontFamily: {
       signature: ["Space Mono"],
-      sig_two: ["Sacramento"]
+      sig_two: ["Sacramento"],
+      sig_three: ["Poppins"],
+      nav_bar: ["Playfair Display"]
     },
   },
   plugins:[],

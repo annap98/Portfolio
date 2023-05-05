@@ -75,7 +75,7 @@ const SocialLinks = () => {
                               >
                                     <a
                                           href={href}
-                                          className="flex justify-between items-center w-full text-yellow font-signature"
+                                          className="flex justify-between items-center w-full text-sig_color font-signature"
                                           download={download}
                                           target="_blank"
                                           rel="noreferrer"

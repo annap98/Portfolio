@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap');
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
@@ -10,6 +12,8 @@
     font-family: 'Space Mono', monospace;
     font-family: 'Sacramento', groteskspace;
     overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
   }
 }
 

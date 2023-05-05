@@ -35,9 +35,9 @@ const NavBar = () => {
       return (
 
             
-            <div className="flex justify-between items-center w-full h-20 px-4 bg-black fixed z-10">
+            <div className="flex justify-between items-center w-full h-34 px-4 bg-background fixed z-10">
                   <div>
-                        <h1 className="text-5xl text-white ml-2 font-signtwo">Anna</h1>
+                        <h1 className="text-6xl w-94  pl-28 pt-20 h-92 top-38 text-sig_color ml-2 font-nav_bar tracking-widest">Anna</h1>
                   </div>
 
                   {/* Render the navigation links on desktop */}
@@ -45,7 +45,7 @@ const NavBar = () => {
                         {links.map(({ id, link }) => (
                               <li
                                     key={id}
-                                    className="px-4 cursor-pointer capitalize font-medium text-white hover:scale-105 duration-200 font-signature"
+                                    className="cursor-pointer text-lg capitalize font-medium text-black hover:scale-105 hover:underline underline-offset-4 duration-200 font-sig_three pt-20 pr-28 flex "
                               >
                                     <Link to={link} smooth duration={500}>
                                           {link}
@@ -57,14 +57,14 @@ const NavBar = () => {
                   {/* Render the hamburger button menu on mobile */}
                   <div
                         onClick={() => setNav(!nav)}
-                        className="cursor-pointer pr-4 z-10 text-white md:hidden"
+                        className="cursor-pointer pr-4 z-10 text-black md:hidden pt-20"
                   >
                         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
                   </div>
 
                   {/* Render the navigation links on mobile */}
                   {nav && (
-                        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-pink text-white font-signature">
+                        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-background  text-black font-sig_three tracking-widest">
                               {links.map(({ id, link }) => (
                                     <li
                                           key={id}

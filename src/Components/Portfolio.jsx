@@ -28,14 +28,14 @@ const Portfolio = () => {
       return (
             <div
                   name="portfolio"
-                  className="bg-gradient-to-b from-black to-pink w-full text-white md:h-screen font-signature pt-16"
+                  className="bg-background text-black md:h-screen font-nav_bar tracking-widest pt-16"
             >
                   <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                         <div className="pb-8">
-                              <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+                              <p className="text-4xl font-bold text-center border-b-4 border-gray-500 p-2">
                                     Portfolio
                               </p>
-                              <p className="py-6">Check out some of my work here</p>
+                              <p className="py-6 font-sig_three text-center text-xl">Check out some of my work here</p>
                         </div>
 
                         {/* Map through the web development examples object */}
@@ -54,7 +54,7 @@ const Portfolio = () => {
                                                 </button>
                               </a>*/}
                                           <a href={href} target="_blank" rel="noreferrer">
-                                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                                                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 font-sig_three tracking-widest">
                                                       Code
                                                 </button>
                                           </a>
@@ -73,7 +73,7 @@ const Portfolio = () => {
                                           />
                                           <div className="flex items-center justify-center">
                                                 <a href={href} target="_blank" rel="noreferrer">
-                                                      <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 type=button">
+                                                      <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 type=button font-sig_three tracking-widest">
                                                             View
                                                       </button>
                                                 </a>

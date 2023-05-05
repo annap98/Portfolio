@@ -52,18 +52,18 @@ const Experience = () => {
       return (
             <div
                   name="experience"
-                  className="bg-gradient-to-b from-pink to-black w-full h-screen font-signature"
+                  className="bg-background w-full h-screen font-signature"
             >
                   <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
                         <div>
-                              <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
+                              <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 text-center font-nav_bar text-black tracking-widest">
                                     Experience
                               </p>
-                              <p className="py-6">These are the technologies I've worked with</p>
+                              <p className="py-6 font-sig_three text-black tracking-widest text-center text-xl">These are the technologies I've worked with</p>
                         </div>
 
                         {/* Mapping through the array of technology objects to create a grid of technology logos */}
-                        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+                        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 font-sig_three text-black tracking-widest">
                               {techs.map(({ id, src, title, style }) => (
                               <div
                                     key={id}
