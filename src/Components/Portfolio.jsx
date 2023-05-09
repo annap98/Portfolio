@@ -17,27 +17,22 @@ const Portfolio = () => {
 
       // Create an array that holds objects that contain writing portfolio examples
       const writingPortfolios = [
-            {
-                  id: 1,
-                  src: pressPic,
-                  href: "/pressRelease.pdf"
-            },
+            
       ];
 
 
       return (
             <div
                   name="portfolio"
-                  className="bg-background text-black md:h-screen font-nav_bar tracking-widest pt-16"
+                  className="bg-background text-black md:h-screen font-nav_bar tracking-widest pt-52"
             >
-                  <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+                  <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full flex">
                         <div className="pb-8">
-                              <p className="text-4xl font-bold text-center border-b-4 border-gray-500 p-2">
+                              <p className="text-4xl font-bold text-center border-b-4 border-gray-500 p-2 column">
                                     Portfolio
                               </p>
                               <p className="py-6 font-sig_three text-center text-xl">Check out some of my work here</p>
                         </div>
-
                         {/* Map through the web development examples object */}
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 -mt-4 mb-4">
                               {webDevPortfolios.map(({ id, src, href, href2 }) => (

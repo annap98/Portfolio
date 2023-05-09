@@ -37,7 +37,7 @@ const NavBar = () => {
             
             <div className="flex justify-between items-center w-full h-34 px-4 bg-background fixed z-10">
                   <div>
-                        <h1 className="text-6xl w-94  pl-28 pt-20 h-92 top-38 text-sig_color ml-2 font-nav_bar tracking-widest">Anna</h1>
+                        <h1 className="text-6xl w-94  pl-28 pt-20 h-92 top-38 text-sig_color ml-2 font-nav_bar tracking-widest translate-x-[-20px]">Anna</h1>
                   </div>
 
                   {/* Render the navigation links on desktop */}
