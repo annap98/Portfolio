@@ -2,6 +2,7 @@ import React from "react";
 import Ecom from "../Assets/Portfolio/Ecom.png";
 import pressPic from "../Assets/Portfolio/pressPic.png";
 
+
 // This is the section of the portfolio that displays the writing and web development samples 
 const Portfolio = () => {                             
       
@@ -75,6 +76,7 @@ const Portfolio = () => {
                                           </div>
                                     </div>
                               ))}
+
                         </div>
                   </div>
             </div>

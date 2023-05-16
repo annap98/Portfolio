@@ -13,7 +13,7 @@ const Home = () => {
                   <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
                         <div className="flex flex-col justify-center h-full">
                               <h2 className="text-6xl sm:text-7xl font-nav_bar text-main mt-36 tracking-widest text-center translate-x-[-10px]">
-                                    I'm a Web Designer and UGC Creator
+                                    I'm a Web Developer
                               </h2>
                               <p className="text-black py-4 max-w-md font-sig_three text-center tracking-widest text-xl translate-x-[-10px]">
                                     I'm passionate about creating engaging and impactful digital experiences
