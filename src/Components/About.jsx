@@ -22,7 +22,7 @@ const About = () => {
 				<br />
 
 				<p className="text-xl font-sig_three text-black tracking-widest">
-					In addition to my psychology background, I have also completed a full stack web development bootcamp, where I gained expertise in programming languages such as HTML, CSS, JavaScript, and Node.js. 
+					In addition to my psychology background, I have also completed a full stack web development bootcamp, where I gained expertise in technologies such as HTML, CSS, JavaScript, and Node.js. 
 				</p>
 			</div>
 		</div>
